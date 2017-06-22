@@ -1,0 +1,7 @@
+
+错误：HTTP Status 404 - No result defined for action
+
+解决办法 ： １、validate方法没有通过；
+
+           ２、页面元素中有重命名时，但后台action类的对应的接收此同名参数的是变量而没有写成数组
+               可以重新命名
