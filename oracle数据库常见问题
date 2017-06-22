@@ -1,0 +1,3 @@
+问题：account is locked
+解决：conn /as sysdba
+     alter user 用户名 account unlock;
